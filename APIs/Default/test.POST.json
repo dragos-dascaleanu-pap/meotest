@@ -25,6 +25,15 @@
           }
         }
       ]
+    },
+    {
+      "Name": "Testpropone",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -33,7 +42,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "name": "[name]"
+        "name": "[name]",
+        "Testpropone": "[Testpropone]"
       },
       "Output": {},
       "IsDisabled": false,
@@ -69,6 +79,10 @@
           {
             "name": "Id",
             "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "Testpropone",
+            "value": "[CreatedRecord:Testpropone]"
           },
           {
             "name": "name",

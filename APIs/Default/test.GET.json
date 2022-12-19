@@ -55,6 +55,10 @@
             "value": "[RecordId]"
           },
           {
+            "name": "Testpropone",
+            "value": "[Record:Testpropone]"
+          },
+          {
             "name": "name",
             "value": "[Record:name]"
           }
