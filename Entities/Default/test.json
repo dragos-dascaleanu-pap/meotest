@@ -32,6 +32,32 @@
       "IsFilterable": false,
       "IsSortable": false,
       "OrderIndex": 1
+    },
+    {
+      "Id": 8,
+      "GlobalId": "6ff08192-0354-4f99-a63b-8d5598675596",
+      "EntityVersionId": 5,
+      "Name": "Testpropone",
+      "Type": {
+        "Id": "Text",
+        "Name": "Text",
+        "InputType": {
+          "Id": "Text",
+          "Name": "Text",
+          "ValueType": 2,
+          "Length": 450,
+          "Icon": "short_text"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": false,
+      "OrderIndex": 2
     }
   ],
   "RolePermissions": {
@@ -214,8 +240,8 @@
   "PageUiLibrary": 2,
   "CreatedDate": "2022-12-12T11:30:23.8866667",
   "CreatedBy": "SuperUser Account",
-  "LastModifiedBy": "",
-  "LastModifiedOn": null,
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2022-12-19T15:07:47.94",
   "Icon": "table",
   "Type": 0,
   "BuiltInType": null,
